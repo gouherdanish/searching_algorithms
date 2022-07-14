@@ -5,7 +5,7 @@
     If it is present, then it returns the index position of the element in the array.
     If it is not present, then it returns None
 
-# Searching Algorithms
+## Searching Algorithms
     1) Linear Search (Sequential/Simple Search)
         - Start from the index 0 and continue till arr.length
         - Compare one by one with the target
@@ -21,7 +21,7 @@
             - else search in second half
         - O(log n)
 
-# Outputs
+## Outputs
 `python3 search.py --range 10 --target 3 --search linear`
 runtime = 1.7e-05
 position = 3
@@ -45,3 +45,8 @@ position = 900
 `python3 search.py --range 100000 --target 900 --search binary`
 runtime = 2.2e-05
 position = 900
+
+## Conclusion
+    - Implemented Linear and Binary search in python
+    - Assumed input is a sorted array, so as to compare the search performance
+    - Binary search is better compared to Linear search
